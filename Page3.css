@@ -1,0 +1,186 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+
+.sky
+{
+    height:100vh;
+    width: 100%;
+    background-image: url("./sky.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.city
+{
+background-image: url("./city.png");
+width: 50000px;
+height:250px;
+position:absolute;
+bottom:250px;
+z-index: 1;
+animation: City 15s linear infinite;
+}
+@keyframes City
+{
+    100%
+    {
+        transform:translateX(-4000px);
+    }
+}
+
+.sun
+{
+    position: absolute;
+    z-index: 0;
+    width:100px;
+    right:10%;
+    top:150px;
+    transform:translateY(-50%);
+}
+
+.sun img{
+    width:100%;
+    animation: Sun 90s ease-in-out infinite;
+}
+
+
+@keyframes Sun
+{
+    100%
+    {
+        transform:translateX(-2000px);
+    }
+}
+
+p{
+    position: absolute;
+    z-index: 5;
+    left:35%;
+    font-size: 34px;
+    font-weight: bold;
+}
+#span1
+{
+    background-color:rgb(223, 98, 26)
+}
+#span2
+{
+    background-color:rgb(241, 237, 235)
+}
+#span3
+{
+    background-color:rgb(31, 90, 51)
+}
+
+
+
+
+.flag
+{
+    position: absolute;
+    z-index: 3;
+    width:100px;
+    left:45%;
+    bottom:170px;
+    transform:translateY(-50%);
+}
+
+.flag img{
+    width:100%;
+    
+
+}
+
+.car
+{
+    position: absolute;
+    z-index: 2;
+    width:400px;
+    left:40%;
+    transform:translateX(-50%);
+    bottom:130px;
+}
+.car img
+{
+    width:100%; 
+    animation: car 1s linear infinite;
+}
+
+@keyframes car
+{
+0%{
+    transform: translateY(-1px);
+}
+50%{
+    transform: translateY(-1px);
+}
+
+100%
+{
+    transform: translateY(-1px);
+}
+}
+
+.wheel
+{
+    position: absolute;
+    z-index: 2;
+
+    left:50%;
+    transform:translateX(-50%);
+    bottom:82px;
+}
+
+
+.wheel img{
+    width:70px;
+    height:70px; 
+    position: absolute;
+
+    animation:Wheel 2s infinite linear;
+}
+
+.back
+{
+    left:-164px;
+    
+}
+
+.front
+{
+    left: 82px;
+}
+
+
+@keyframes Wheel
+{
+    100%
+    {
+        transform:rotate(360deg);
+    }
+}
+
+
+.road
+{
+    width:50000px;
+    height:250px;
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index: 1;
+    background-image: url("./road.jpg");
+    animation: Street 4s linear infinite;
+}
+@keyframes Street
+{
+    100%
+    {
+        transform:translateX(-4000px);
+    }
+}

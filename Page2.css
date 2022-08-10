@@ -1,0 +1,193 @@
+body
+{
+    background-color: bisque;
+}
+
+
+p{
+    text-align: center;
+    
+    font-size: 34px;
+    font-weight: bold;
+}
+.container
+{
+  
+height:650px;
+display: flex;
+flex-wrap:wrap;
+justify-content: center;
+
+}
+
+#item1
+{
+    height:80px;
+    width:100px;
+    background-color: aquamarine;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    
+    }
+
+#item2
+{
+    height:80px;
+    width:100px;
+    margin-top:10px;
+    background-color: aquamarine;
+    margin-top:10px;
+    transition: width 2s,height 4s;
+    transition-timing-function: ease, ease;
+    transition-delay: 0s, 0s;
+    }
+
+
+#item3
+{
+    height:80px;
+    width:100px;
+    margin-top:10px;
+    background-color: aquamarine;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    }
+
+#item4
+{
+    height:80px;
+    width:100px;
+    margin-top:10px;
+    background-color: aquamarine;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    }
+
+#item5
+{
+    height:80px;
+    width:100px;
+    margin-top:10px;
+    background-color: aquamarine;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    }
+#item6
+{
+    height:80px;
+    width:100px;
+    margin-top:10px;
+    background-color: aquamarine;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+#item7
+{
+    height:80px;
+    width:100px;
+    margin-top:10px;
+    background-color: aquamarine;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+
+#item1:hover{
+    
+    width:300px;
+    transition-duration: 5s;
+    transition-delay: 0s;
+    transition-timing-function: ease;
+   
+}
+
+#item2:hover
+{
+   width:150px;
+   height:150px;
+    transition: width 2s,height 4s;
+
+    transition-duration: 2s, 4s;
+    transition-timing-function: ease, ease;
+    transition-delay: 0s, 0s;
+   
+}
+
+
+#item3:hover{
+    
+    width:300px;
+    transition-duration: 5s;
+    transition-delay: 0s;
+    transition-timing-function: ease;
+}
+
+
+#item4:hover{
+    
+    width:300px;
+   
+    transition-duration: 5s;
+    transition-delay: 0s;
+    transition-timing-function: ease;
+ 
+}
+
+#item5:hover{
+    
+    width:300px;
+   
+    transition-duration: 5s;
+    transition-delay: 0s;
+    transition-timing-function: ease;
+ 
+}
+
+#item6:hover{
+    
+    width:300px;
+   
+    transition-duration: 5s;
+    transition-delay: 0s;
+    transition-timing-function: ease;
+ 
+}
+
+#item7:hover{
+    
+    width:300px;
+   
+    transition-duration: 5s;
+    transition-delay: 0s;
+    transition-timing-function: ease;
+ 
+}
+
+
+.last-container1
+{
+    
+    height:30px;
+    width:50px;
+  padding:10px;
+    align-content: center;
+    margin-left:48%;
+    font-size: 30px;
+    color:white;
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(20, 14, 14);
+}
+
+
+
